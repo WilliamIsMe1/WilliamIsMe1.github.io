@@ -1,0 +1,32 @@
+@import "./colors.css";
+
+body {
+    font-family: serif;
+}
+
+p {
+    font-family: 'Ariel', sans-serif;
+}
+
+h1, h2, h3 {
+    font: --primary-color;
+}
+
+nav {
+    background-color: --primary-color;
+}
+
+nav > a , nav > p, nav > span {
+    color: --primary-contrast;
+}
+
+
+a.nolink {
+    text-decoration: none;
+    font: --primary-contrast;
+}
+
+.right-floating {
+    float: right;
+    text-align: right;
+}
