@@ -1,9 +1,9 @@
 @import "./colors.css";
 
-body {
-    font-family: serif;
-    padding: 0;
+body, html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    height: 100%;
 }
 
 p {
@@ -11,7 +11,7 @@ p {
 }
 
 h1, h2, h3 {
-    font: var(--primary-color);
+    color: var(--primary-color);
 }
 
 nav {
@@ -34,13 +34,44 @@ a.nolink {
     float: right;
 }
 
+.left-floating {
+    float: left;
+}
+
+.center-floating {
+    float: center;
+}
+
 .padded {
     padding-left:  5px;
     padding-right: 5px;
 }
 
-.cover {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
+.parallax-1 {
+    background-image: img("https://placehold.co/1400x600/00a4af/000000/");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+section {
+    padding: auto;
+}
+
+.big {
+    font-size: 48px;
+}
+
+.side-by-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
 }
