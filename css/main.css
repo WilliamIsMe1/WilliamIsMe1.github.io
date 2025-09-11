@@ -48,7 +48,7 @@ a.nolink {
 }
 
 .parallax-1 {
-    background-image: img("https://placehold.co/1400x600/00a4af/000000/");
+    background-image: url("/img/cover-image-dummy.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
