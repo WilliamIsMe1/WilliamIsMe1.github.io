@@ -19,6 +19,6 @@
 }
 
 .gallery-year-inner > img {
-    width: calc(100% - 5 * 10px);
+    width: 100%;
     aspect-ratio: 1 / 1;
 }
