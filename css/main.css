@@ -54,6 +54,8 @@ nav span {
 .dropdown {
     float: left;
     overflow: hidden;
+    margin: 0;
+    padding: inherit;
 }
 
 .dropdown .dropbtn {
