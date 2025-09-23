@@ -1,7 +1,0 @@
-Can you take a look at gallery.js and gallery.css and gallery/index.html in WilliamIsMe1.github.io? You have access to the repo, right? I want to know what:
-gallery.js:
- - Makes my code not load in the text file, read the contents, take each line, split it into folder name and image count, and then create image elements from 1.png to count.png.
-gallery.css:
-- Makes my images go into 4 even columns that drift to the left and don't fill the screen, rather than images that are laid out in a grid top to bottom left to right such that the width of an image is  ( width of screen - 50 ) / 4 and the height is the same as the width
-gallery/index.html
-- Just check here in case for problems. i've commented out the <script> element that links to gallery.js
