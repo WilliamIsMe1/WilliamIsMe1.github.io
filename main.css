@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #39c6ac;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section {
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: black;
+    justify-content: center;
+    font-size: 25px;
+}
+
+section h2 {
+    padding: 10px;
+    margin: auto;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+input {
+    width: max-content;
+    height: 40px;
+    justify-self: center;
+}
+
+button {
+    height: 40px;
+}
+
+input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
+}

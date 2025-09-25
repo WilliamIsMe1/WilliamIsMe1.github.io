@@ -2,14 +2,78 @@
 <html>
     <head>
         <title>Gravitech𝕏 Match Tracker</title>
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <canvas id="canvas" width="1200" height="500"></canvas>
-        <label for="gameSelect">Select Game:</label>
-        <select name="gameSelect" id="gameSelect">
-            <option value="">--- Select a game ---</option>
+        <header>
+            <h2>Match Tracker - Reefscape</h2>
+        </header>
+        <section id="team_id">
+            Team ID
+            <input type="number" id="team_id_input">
+        </section>
+        <section id="auto">
+            <h2>Auto</h2>
+            <label for="did_move_in_auto">Did Move In Auto: </label>
+            <input type="checkbox" id="did_move_in_auto">
+            <div class="coral-recorder">
+                <ul>
+                    <li>L1: <input type="number" style="width: 40px;" id="l1_a"><button id="up_l1_a">Up</button><button id="down_l1_a">Down</button></li>
+                </ul>
+            </div>
+        </section>
+        
+        <br>
+        <!--
+        <div class="section-type-1">
+            <h3>Auto</h3>
             
+            <label for="aL1">L1: </label>
+            <input type="number" id="aL1">
+            <br>
+            <label for="aL2">L2: </label>
+            <input type="number" id="aL1">
+            <br>
+            <label for="aL3">L3: </label>
+            <input type="number" id="aL3">
+            <br>
+            <label for="aL4">L4: </label>
+            <input type="number" id="aL4">
+            <br>
+            <label for="aalgae">Algae: </label>
+            <input id="aalgae" type="number">
+        </div>
+        <div class="section-type-1">
+            <h3>Teleop</h3>
+            <label for="L1">L1: </label>
+            <input type="number" id="L1">
+            <br>
+            <label for="L2">L2: </label>
+            <input type="number" id="L2">
+            <br>
+            <label for="L3">L3: </label>
+            <input type="number" id="L3">
+            <br>
+            <label for="L4">L4: </label>
+            <input type="number" id="L4">
+            <br>
+            <label for="algae">Algae: </label>
+            <input id="algae" type="number">
+        </div>
+        <div>
+            <label for="hit">Hits: </label>
+            <input style="width: 50px;" type="number" id="hit">
+            <label for="miss">Misses: </label>
+            <input style="width: 50px;" type="number" id="miss">
+        </div>
+        <label for="endgame">Endgame state:</label>
+        <select id="endgame">
+            <option>-- select --</option>
+            <option>None</option>
+            <option>Parked</option>
+            <option>Deep</option>
+            <option>Shallow</option>
         </select>
-        <script src="main.js"></script>
+        -->
     </body>
 </html>
